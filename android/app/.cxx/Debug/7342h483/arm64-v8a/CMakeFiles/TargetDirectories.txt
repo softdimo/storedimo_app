@@ -1,0 +1,2 @@
+/Users/plara/Documents/proyectos_softdimo/storedimo_movil/stordimo_app/android/app/.cxx/Debug/7342h483/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/plara/Documents/proyectos_softdimo/storedimo_movil/stordimo_app/android/app/.cxx/Debug/7342h483/arm64-v8a/CMakeFiles/rebuild_cache.dir

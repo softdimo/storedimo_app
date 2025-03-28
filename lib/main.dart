@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:storedimo_app/config/config.dart';
+import 'package:storedimo_app/config/router/app_router.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,13 +11,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp.router(
+      routerConfig: appRouter,
+      theme: AppTheme().getTheme(),
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Text('STOREDIMO'),
-        ),
-      ),
     );
   }
 }
