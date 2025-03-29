@@ -149,7 +149,7 @@ class _RightTrianglePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..color = Colors.white10
+      ..color = const Color.fromARGB(26, 194, 23, 23)
       ..style = PaintingStyle.fill;
 
     final path = Path();

@@ -49,7 +49,7 @@ class _SideMenuState extends State<SideMenu> {
 
         Padding(
           padding: const EdgeInsets.fromLTRB(20, 0, 16, 10),
-          child: Text('Tony Stark', style: textStyles.titleSmall ),
+          child: Text('Pablo Lara', style: textStyles.titleSmall ),
         ),
 
         const NavigationDrawerDestination(

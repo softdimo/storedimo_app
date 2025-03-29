@@ -20,6 +20,7 @@ class CustomFilledButton extends StatelessWidget {
 
     return FilledButton(
       style: FilledButton.styleFrom(
+        textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         backgroundColor: buttonColor,
         shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.only(

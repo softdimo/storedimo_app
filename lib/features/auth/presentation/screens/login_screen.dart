@@ -24,7 +24,7 @@ class LoginScreen extends StatelessWidget {
                 const SizedBox( height: 80 ),
                 // Icon Banner
                 const Icon( 
-                  Icons.production_quantity_limits_rounded, 
+                  Icons.store_rounded, 
                   color: Colors.white,
                   size: 100,
                 ),
@@ -61,7 +61,7 @@ class _LoginForm extends StatelessWidget {
       child: Column(
         children: [
           const SizedBox( height: 50 ),
-          Text('Login', style: textStyles.titleLarge ),
+          Text('Ingresar', style: textStyles.titleLarge ),
           const SizedBox( height: 90 ),
 
           const CustomTextFormField(
@@ -82,7 +82,7 @@ class _LoginForm extends StatelessWidget {
             height: 60,
             child: CustomFilledButton(
               text: 'Ingresar',
-              buttonColor: Colors.black,
+              buttonColor: const Color(0xFF154CAB),
               onPressed: (){
 
               },
